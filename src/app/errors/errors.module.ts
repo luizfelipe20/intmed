@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 import { NotfoundComponent } from './notfound/notfound.component';
 
 
-
 @NgModule({
-  declarations: [NotfoundComponent],
+  declarations: [
+    NotfoundComponent
+  ],
   imports: [
     CommonModule
   ]

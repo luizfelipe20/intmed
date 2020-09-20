@@ -1,10 +1,7 @@
 export interface Photo {
     id:number;
-    postDate:Date;
+    albumId:number;
+    title:string;
     url:string;
-    description:string;
-    allowComments:boolean;
-    likes:number;
-    comments:number;
-    userId:number;
+    thumbnailUrl:string;
 }
